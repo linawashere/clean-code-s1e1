@@ -1,4 +1,5 @@
 /* Basic Style */
+
 body {
   background-color: #f8f8f8;
   color: #333;
@@ -59,7 +60,9 @@ button {
 button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 h3,
 label[for="new-task"] {
   color: #333;
@@ -87,6 +90,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
+
 label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
@@ -96,6 +100,7 @@ label[for="new-task"] {
 }
 
 /* Task list */
+
 li {
   overflow: hidden;
   padding: 20px 0;
@@ -129,12 +134,14 @@ li > input[type="text"] {
 }
 
 /* Completed */
+
 #completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 ul li input[type=text] {
   display: none;
 }
